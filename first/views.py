@@ -7,7 +7,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('hi')
+    return render(request, 'first/index.html')
 
 
 def student_num(request):
