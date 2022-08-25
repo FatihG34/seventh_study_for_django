@@ -7,9 +7,8 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, 'first/index.html')
+    return render(request, 'first/index2.html')
 
 
-def student_num(request):
-    num_of_stdnt = 22
-    return HttpResponse(f'Hi, in this school, we have {num_of_stdnt} students')
+def student_page(request):
+    return render(request, 'first/student.html')

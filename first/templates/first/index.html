@@ -9,23 +9,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <h1>Here is Index HTML</h1>
-      <form class="form" action="">
-        <label for="id_firstname">Firstname :</label>
-        <input type="text" name="firstname" id="id_firstname" />
-        <label for="id_lastname">Lastname :</label>
-        <input type="text" name="lastname" id="id_lastname" />
-        <input type="submit" value="Submit Info" />
-      </form>
-      {% comment %}
-      <img
-        class="image"
-        src="{% static 'first/golcuk.jpg' %}"
-        alt="golcuk"
-        width="500"
-      />
-      {% endcomment %}
-    </div>
+    {% block container %}{% endblock container %}
   </body>
+</html>
 </html>
