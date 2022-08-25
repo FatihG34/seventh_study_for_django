@@ -5,10 +5,26 @@
 }
 
 body {
-  background: #59C173;
+  /* background: #59c173; */
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+  /* background: -webkit-linear-gradient(to right, #5d5766, #a17fe0, #59C173); */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+  /* background: linear-gradient(to right, #5f586d, #a17fe0, #59C173); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div {
+  width: 40rem;
+  border: 2px solid yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+form {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
 }
